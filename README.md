@@ -1,3 +1,8 @@
+Captura de prueba de mi proyecto de React!
+
+![Mi captura de pantalla](captura.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
