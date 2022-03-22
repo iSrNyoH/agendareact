@@ -2,6 +2,8 @@ import './App.css';
 import 'styled-components'
 import React, {useState,useEffect} from 'react';
 import DataTable, {createTheme} from 'react-data-table-component';
+import Formulario from './Components/contacto';
+
 
 const App = () => {
 
@@ -39,6 +41,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Agenda de Contactos</h1>
+        <Formulario/>
         <DataTable
         columns={columnas}
         data={users}
