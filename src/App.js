@@ -36,12 +36,16 @@ const App = () => {
       }
     ]
 
+    const SendData= (datos) =>{
+      
+
+    }
 
 
   return (
     <div className="App">
       <h1>Agenda de Contactos</h1>
-        <Formulario/>
+        <Formulario SendData={SendData}/>
         <DataTable
         columns={columnas}
         data={users}
